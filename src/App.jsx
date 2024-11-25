@@ -4,6 +4,14 @@ function App() {
 
   return (
     <>
+      <header>
+        <h1>Tabela de Cripotomoedas</h1>
+      
+        <div className='container_input'>
+          <input className='input' type="text" value={valor} onChange={campo} />
+        </div>
+        
+      </header>
       <main>
         <table>
           <tr>
