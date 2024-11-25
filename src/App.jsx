@@ -1,5 +1,6 @@
 import { BsFillCaretDownFill, BsCaretUpFill} from "react-icons/bs"
 import { useState, useEffect } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import './App.css'
 
@@ -45,11 +46,10 @@ function App() {
     <>
       <header>
         <h1>Tabela de Cripotomoedas</h1>
-      
+
         <div className='container_input'>
-          <input className='input' type="text" value={valor} onChange={campo} />
+          <input type="text" class="form-control" value={valor} onChange={campo} />
         </div>
-        
       </header>
       <main>
         <table>
